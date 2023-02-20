@@ -1,0 +1,16 @@
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/config.json
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/DataProcessor
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/DataProcessor.deps.json
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/DataProcessor.runtimeconfig.json
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/DataProcessor.dll
+/Users/Serhii/Projects/DataProcessor/DataProcessor/bin/Release/net7.0/DataProcessor.pdb
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.csproj.AssemblyReference.cache
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.AssemblyInfoInputs.cache
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.AssemblyInfo.cs
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.csproj.CoreCompileInputs.cache
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.dll
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/refint/DataProcessor.dll
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.pdb
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/DataProcessor.genruntimeconfig.cache
+/Users/Serhii/Projects/DataProcessor/DataProcessor/obj/Release/net7.0/ref/DataProcessor.dll
