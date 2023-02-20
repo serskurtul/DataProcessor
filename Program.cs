@@ -31,7 +31,7 @@ internal class Program
         };
         FileSystemEventHandler OnStart = (sender, e) =>
         {
-            IFileParser parser = new FileParser(new PaymentParser());
+            IFileParser parser = new FileParser(new PaymentParser(logger));
             ISerializer<PaymentInfo> serializer = new JsonSerializer();
 
             var a = new FileProcessor(config.OutputFolderPath, parser, serializer, logger);

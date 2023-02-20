@@ -2,7 +2,6 @@
 using System.Text;
 using DataProcessor.Data.Interfaces;
 using DataProcessor.Data.Models;
-
 using static DataProcessor.Data.Processors.JsonSerializer.CityGroup;
 using static DataProcessor.Data.Processors.JsonSerializer.CityGroup.ServiceGroup;
 
