@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Text;
+using System.Text.Json.Serialization;
 using DataProcessor.Data.Interfaces;
 using DataProcessor.Data.Models;
 using static DataProcessor.Data.Processors.JsonSerializer.CityGroup;
@@ -15,16 +17,35 @@ namespace DataProcessor.Data.Processors
             {
                 public class Payer
                 {
+                    [JsonPropertyName("name")]
                     public string Name { get; set; }
+                    [JsonPropertyName("payment")]
                     public decimal Payment { get; set; }
+                    [JsonPropertyName("account_number")]
                     public long AccountNumber { get; set; }
+                    [JsonPropertyName("date")]
                     public DateOnly Date { get; set; }
                 }
+                [JsonPropertyName("name")]
                 public string Service { get; set; }
+                [JsonPropertyName("payers")]
                 public ICollection<Payer> Payers { get; set; }
+                [JsonPropertyName("total")]
+                public decimal Total
+                {
+                    get => Payers.Sum(x => x.Payment);
+                }
+
             }
+            [JsonPropertyName("city")]
             public string City { get; set; }
+            [JsonPropertyName("services")]
             public ICollection<ServiceGroup> ServiceGroups { get; set; }
+            [JsonPropertyName("total")]
+            public decimal Total
+            {
+                get => ServiceGroups.Sum(x => x.Total);
+            }
         }
 
 
