@@ -401,3 +401,11 @@ bin/Debug/net7.0/DataProcessor.deps.json
 *.pdb
 *.cache
 *.dll
+*.CopyComplete
+obj/Debug/net7.0/DataProcessor.csproj.CoreCompileInputs.cache
+obj/Debug/net7.0/DataProcessor.csproj.FileListAbsolute.txt
+obj/Debug/net7.0/DataProcessor.dll
+obj/Debug/net7.0/DataProcessor.pdb
+obj/Debug/net7.0/refint/DataProcessor.dll
+obj/Debug/net7.0/ref/DataProcessor.dll
+obj/Debug/net7.0/DataProcessor.pdb
