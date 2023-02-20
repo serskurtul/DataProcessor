@@ -7,6 +7,7 @@ namespace DataProcessor.Data.Processors
     public class FileParser : IFileParser
     {
         private readonly IPaymentParser _parser;
+        private readonly ILogger _logger;
 
         public FileParser(IPaymentParser parser)
         {
